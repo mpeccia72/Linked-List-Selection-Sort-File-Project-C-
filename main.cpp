@@ -66,6 +66,6 @@ void insertData(ifstream& input, List& list) {
 
 void outputData(ofstream& output, List list) {
     for(int i = 0; i < list.length; i++) {
-        output << list.indexOf(i) << " ";
+        output << list.dataAtIndex(i) << " ";
     }
 }
