@@ -21,7 +21,7 @@ class List {
         void addNode(int);
         void selectionSort();
         void printList();
-        int indexOf(int);
+        int dataAtIndex(int);
 };
 
 // Precondition: a linked list must exists
@@ -69,7 +69,7 @@ List::nodePtr List::nodeAtIndex(int index) {
 
 // Precondition: a linked list must exists
 // Postcondition: returns the value at any index in the linked list
-int List::indexOf(int index) {
+int List::dataAtIndex(int index) {
     if(index >= length) {
         cout << "Out of bounds!\n";
         exit(2);
