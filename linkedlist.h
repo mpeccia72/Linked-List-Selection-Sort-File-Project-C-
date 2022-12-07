@@ -121,8 +121,8 @@ void List::selectionSort() {
             if(nodeAtIndex(j)->data < currentMin->data) {
                 currentMin = nodeAtIndex(j);
             }
-            swap(currentNode, currentMin);
         }
+        swap(currentNode, currentMin);
     }
 }
 
