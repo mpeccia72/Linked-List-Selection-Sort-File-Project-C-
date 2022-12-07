@@ -20,7 +20,7 @@ class List {
         int length; // contains the length of the linked list, public access
         void addNode(int);
         void selectionSort();
-        void printList();
+        void printList(); // dev function
         int dataAtIndex(int);
 };
 
